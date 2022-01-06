@@ -1,33 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rohan's Website</title>
-    <meta name="viewport" content="width=device-width,height=device-height" />
-    <link rel="stylesheet" href="styles.css" />
+    <!-- font-awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
-    <img
-      src="pic.jpg"
-      class="picture"
-      alt="picture"
-      onContextMenu="return false;"
-    />
-    <div class="info">
-      <h1>Rohan Sharma</h1>
-      <h3>MS in Computer Science | Northeastern University</h3>
-      <a
-        href="https://www.linkedin.com/in/rohan-sharma-95546b194/"
-        target="_blank"
-        ><i class="fab fa-linkedin-in fa-2x"></i
-      ></a>
-      <a href="https://github.com/rohaansharma" target="_blank"
-        ><i class="fab fa-github fa-2x"></i
-      ></a>
-    </div>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- nav-links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://github.com/rohaansharma"  target="_blank" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/rohan-sharma-95546b194/"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- header -->
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h2>Hello &#128578 i'm Rohan</h2>
+          <!-- social icons -->
+          <ul class="social-icons hero-icons">
+            <li>
+              <a href="https://github.com/rohaansharma"  target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/rohan-sharma-95546b194/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="hero-img">
+          <img
+            src="./images/rohan-img.jpg"
+            class="hero-photo"
+            alt="rohan image"
+          />
+        </article>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- about -->
+    <section class="section about">
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img
+            src="./images/about-img.jpg"
+            class="hero-photo"
+            alt="about img"
+          />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title about-title">
+            <h2>about</h2>
+            <div class="underline"></div>
+          </div>
+          <!--end of section title -->
+          <p>
+            I am currently pursuing masters in computer science from
+            Northeastern University and graduating in May 2022.
+          </p>
+          <p>
+            I am a detailed-oriented, responsible, and committed developer, with
+            a get-it-done, on-time, and high-quality work spirit.
+          </p>
+          <p>
+            I have experience defining requirements, designing, implementing,
+            testing, and delivering complex software using a variety of
+            programming languages and technologies.
+          </p>
+          <p>I constantly learn new skills and am always open to learning.</p>
+          <p>
+            Please feel free to connect if you're interested in working together
+            or would like to get to know me more :)
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- end of about -->
+
+    <!-- connect -->
+    <section class="connect">
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        class="video-container"
+        poster="./images/project-1.jpeg"
+      >
+        <source src="./videos/connect.mp4" type="video/mp4" />
+        Sorry, your browser does not support embedded videos
+      </video>
+      <div class="video-banner">
+        <!-- section title -->
+        <div class="section-title">
+          <h2>let's get in touch</h2>
+          <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p class="video-text">
+          Please feel free to connect if you're interested in working together
+          or would like to get to know me more :)
+        </p>
+        <a href="contact.html" class="btn">contact me</a>
+      </div>
+    </section>
+    <!-- end of connect -->
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
