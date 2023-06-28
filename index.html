@@ -1,188 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rohan's Website</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- css -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="nav" id="nav">
-      <div class="nav-center">
-        <!-- nav header -->
-        <div class="nav-header">
-          <button class="nav-btn" id="nav-btn">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-        <!-- nav-links -->
-        <ul class="nav-links">
-          <li>
-            <a href="index.html">home</a>
-          </li>
-          <li>
-            <a href="projects.html">projects</a>
-          </li>
-          <li>
-            <a href="contact.html">contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- end of navbar -->
-    <!-- sidebar -->
-    <aside class="sidebar" id="sidebar">
-      <div>
-        <button class="close-btn" id="close-btn">
-          <i class="fas fa-times"></i>
-        </button>
-        <!-- nav-links -->
-        <ul class="sidebar-links">
-          <li>
-            <a href="index.html">home</a>
-          </li>
-          <li>
-            <a href="projects.html">projects</a>
-          </li>
-          <li>
-            <a href="contact.html">contact</a>
-          </li>
-        </ul>
-        <!-- social icons -->
-        <ul class="social-icons">
-          <li>
-            <a href="https://github.com/rohaansharma"  target="_blank" class="social-icon">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/rohan-sharma-95546b194/"
-              target="_blank"
-              class="social-icon"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-    <!-- end of sidebar -->
-    <!-- header -->
-    <header class="hero">
-      <div class="section-center hero-center">
-        <article class="hero-info">
-          <div class="underline"></div>
-          <h2>Hello &#128578 i'm Rohan</h2>
-          <!-- social icons -->
-          <ul class="social-icons hero-icons">
-            <li>
-              <a href="https://github.com/rohaansharma"  target="_blank" class="social-icon">
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/rohan-sharma-95546b194/"
-                target="_blank"
-                class="social-icon"
-              >
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-        </article>
-        <article class="hero-img">
-          <img
-            src="./images/rohan-img.JPG"
-            class="hero-photo"
-            alt="rohan image"
-          />
-        </article>
-      </div>
-    </header>
-    <!-- end of header -->
-    <!-- about -->
-    <section class="section about">
-      <div class="section-center about-center">
-        <!-- about img -->
-        <article class="about-img">
-          <img
-            src="./images/about-img.jpg"
-            class="hero-photo"
-            alt="about img"
-          />
-        </article>
-        <!-- about info -->
-        <article class="about-info">
-          <!-- section title -->
-          <div class="section-title about-title">
-            <h2>about</h2>
-            <div class="underline"></div>
-          </div>
-          <!--end of section title -->
-          <p>
-            I am currently pursuing masters in computer science from
-            Northeastern University and will graduate in May 2022.
-          </p>
-          <p>
-            I am a detailed-oriented, responsible, and committed developer, with
-            a get-it-done, on-time, and high-quality work spirit.
-          </p>
-          <p>
-            I have experience defining requirements, designing, implementing,
-            testing, and delivering complex software using a variety of
-            programming languages and technologies.
-          </p>
-          <p>I constantly learn new skills and am always open to learning.</p>
-          <p>
-            Please feel free to connect if you're interested in working together
-            or would like to get to know me more :)
-          </p>
-        </article>
-      </div>
-    </section>
-    <!-- end of about -->
 
-    <!-- connect -->
-    <section class="connect">
-      <video
-        controls
-        autoplay
-        muted
-        loop
-        class="video-container"
-        poster="./images/project-1.jpeg"
-      >
-        <source src="./videos/connect.mp4" type="video/mp4" />
-        Sorry, your browser does not support embedded videos
-      </video>
-      <div class="video-banner">
-        <!-- section title -->
-        <div class="section-title">
-          <h2>let's get in touch</h2>
-          <div class="underline"></div>
-        </div>
-        <!--end of section title -->
-        <p class="video-text">
-          Please feel free to connect if you're interested in working together
-          or would like to get to know me more :)
-        </p>
-        <a href="contact.html" class="btn">contact me</a>
-      </div>
-    </section>
-    <!-- end of connect -->
+<head>
+	<title>Rohan Sharma</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/main.css">
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    <script src="./js/app.js"></script>
-  </body>
+		ga('create', 'UA-103320786-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h2>Rohan Sharma
+				<p><small>sharma.rohan@northeastern.edu</small>
+			</h2>
+			</p>
+			<p class="profpic"><img src="images/rohan-img.jpeg" width="225px" /></p>
+			<p>
+				<a href="https://github.com/rohaansharma">Github</a> |
+				<a href="https://scholar.google.com/citations?user=yiLIIzoAAAAJ&hl=en">Google Scholar</a> |
+				<a href="https://www.linkedin.com/in/rohnsrma/">LinkedIn</a>
+			</p>
+		</div>
+		</p>
+
+		<p>
+			As a Software Engineer at Amazon Web Services (AWS), I have had the opportunity to work on cutting-edge
+			technology, creating innovative solutions for cloud computing and delivering highly-scalable and reliable
+			software systems.<br />
+			With a Master's degree in Computer Science from Northeastern University, I bring in-depth knowledge of the
+			principles of software engineering, distributed systems, and algorithms to every project I undertake.<br />
+			My passion for advancing the field of technology has led me to conduct research in the areas of machine
+			learning and image processing and has been published in prominent academic journals.<br />
+			I thrive in a fast-paced, collaborative environment and am always eager to learn and tackle new
+			challenges.<br />
+			I am dedicated to using my expertise to develop software that is scalable, efficient, and user-friendly.
+		</p>
+
+		<h3>Publications</h3>
+		<dl>
+			<dt>Aerial Footage Analysis Using Computer Vision for Efficient Detection of Points of Interest Near Railway
+				Tracks.</dt>
+			<dd><b>Rohan Sharma</b>, Kishan Patel, Sanyami Shah, Michal Aibin</dd>
+			<dd><i>Aerospace, 2022.</i></dd>
+			<dd><a href="https://www.mdpi.com/2226-4310/9/7/370">[paper]</a></dd>
+		</dl>
+		<dl>
+			<dt>Real-Time Search and Rescue using Remotely Piloted Aircraft System with Frame Dropping.</dt>
+			<dd><b>Rohan Sharma</b>, Michal Aibin</dd>
+			<dd><i>International Conference on Computing, Networking and Communications (ICNC), 2023.</i></dd>
+			<dd><a href="https://ieeexplore.ieee.org/abstract/document/10074217">[paper]</a></dd>
+		</dl>
+
+		<h3>Teaching</h3>
+		<p><strong>Spring 2022 :</strong> Teaching Assistant
+			for CS 5800 Algorithms at Northeastern
+		<p>
+		<p><strong>Fall 2021 :</strong> Teaching Assistant
+			for CS 5100 Foundations Of Artificial Intelligence at Northeastern
+		<p>
+		<p><strong>Summer 2021:</strong> Teaching Assistant
+			for CS 5200 Database Management System at Northeastern
+		<p>
+	</div>
+</body>
+
 </html>
