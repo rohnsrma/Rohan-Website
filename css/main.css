@@ -17,6 +17,10 @@ body {
   padding-bottom: 50px;
 }
 
+b {
+  font-weight: normal;
+}
+
 html,
 button,
 input,
@@ -118,7 +122,7 @@ h3 {
 
 h4 {
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h5 {
@@ -376,8 +380,6 @@ ul {
 .tag-cloud a {
   margin-right: 15px;
 }
-
-
 
 @media (max-width: 767px) {
   body {
