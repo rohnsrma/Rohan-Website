@@ -412,3 +412,23 @@ ul {
     font-size: 14px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #282a36;
+    color: #d3d3d3;
+  }
+
+  a {
+    color: #C85A2B;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #bbbbbb;
+  }
+}
